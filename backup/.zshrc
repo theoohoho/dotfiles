@@ -110,5 +110,13 @@ source $ZSH/oh-my-zsh.sh
 eval "$(pyenv init -)"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+# Git
+alias gs="git status"
+alias gstl="git stash list"
+alias gl="git log --oneline --graph --pretty='''%Cred%h%Creset -%C(auto)%d%Creset %s%Cgreen(%ad) %C(bold blue)<%an>%Creset''' --date=short"
+alias glop="git log --oneline -p"
+alias glgs="git log --oneline --graph --stat"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
