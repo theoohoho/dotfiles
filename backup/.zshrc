@@ -113,7 +113,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Git
 alias gs="git status"
 alias gstl="git stash list"
-alias gl="git log --oneline --graph --pretty='''%Cred%h%Creset -%C(auto)%d%Creset %s%Cgreen(%ad) %C(bold blue)<%an>%Creset''' --date=short"
+alias gl="git log --oneline --graph --pretty='%Cred%h%Creset - %Cgreen(%ad) %C(bold blue)<%an>%Creset %C(auto)%d%Creset %s' --date=short"
 alias glop="git log --oneline -p"
 alias glgs="git log --oneline --graph --stat"
 
