@@ -122,6 +122,15 @@ alias gcm="git checkout master"
 # Docker
 alias dcup="docker-compose up"
 alias dcrm="docker-compose rm"
+alias dcs="docker ps"
+alias dci="docker image"
+
+# Kubectl
+alias k="kubectl"
+
+# GoogleCloud
+alias gcd="gcloud"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
