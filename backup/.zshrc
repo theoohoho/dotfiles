@@ -120,7 +120,7 @@ alias glgp="git log --oneline -p"
 alias glgs="git log --oneline --graph --stat"
 alias gcd="git checkout develop"
 alias gcm="git checkout master"
-alias gco="git chcekout"
+alias gco="git checkout"
 alias gcp="git cherry-pick"
 
 # Docker
